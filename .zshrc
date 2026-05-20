@@ -109,3 +109,7 @@ export PATH=$PATH:/home/goco/.spicetify
 
 
 alias info='kitty --title fastfetch -e sh -c "fastfetch; zsh" 2>/dev/null & kitty --title cava -e cava 2>/dev/null & btop'
+
+
+
+alias backup='cd ~/dotfiles && cp -r ~/.config/hypr . && cp -r ~/.config/kitty . && cp -r ~/.config/fastfetch . && cp -r ~/.config/btop . && cp ~/.zshrc . && git add . && git commit -m "update rice" && git push && cd ~'
