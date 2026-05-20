@@ -1,0 +1,32 @@
+{
+    "logo": {
+        "source": "~/Pictures/Rei-ayanami1.jpg",
+        "type": "kitty",
+        "width": 30,
+        "height": 15
+    },
+    "modules": [
+        "title",
+        "separator",
+        "os",
+        "kernel",
+        "uptime",
+        "packages",
+        "shell",
+        "display",
+        "wm",
+        "theme",
+        "icons",
+        "font",
+        "cursor",
+        "terminal",
+        "cpu",
+        "gpu",
+        "memory",
+        "swap",
+        "disk",
+        "localip",
+        "locale",
+        "colors"
+    ]
+}
