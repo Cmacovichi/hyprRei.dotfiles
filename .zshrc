@@ -113,3 +113,4 @@ alias info='kitty --title fastfetch -e sh -c "fastfetch; zsh" 2>/dev/null & kitt
 
 
 alias backup='cd ~/dotfiles && cp -r ~/.config/hypr . && cp -r ~/.config/kitty . && cp -r ~/.config/fastfetch . && cp -r ~/.config/btop . && cp ~/.zshrc . && git add . && git commit -m "update rice" && git push && cd ~'
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
